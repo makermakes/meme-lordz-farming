@@ -12,6 +12,14 @@ const contractAddressesTemp = contractAddresses as { [index: string]: any }
 const Nav: React.FC = () => {
   return (
     <StyledNav>
+
+    <StyledLink
+      target="_blank"
+      href={`https://memelordz.io/staking`}
+    >
+      * Staking Info
+    </StyledLink>
+
       <StyledLink
         target="_blank"
         href={`https://bscscan.com/token/${contractAddressesTemp.erc20[chainId]}#code`}

@@ -182,6 +182,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
             </StyledTitle>
             <StyledDetails>
               <StyledDetail>{poolWeight}</StyledDetail>
+              <StyledDetail><span>1084% APY<sup>*</sup></span></StyledDetail>
             </StyledDetails>
             <Spacer />
             <Button
